@@ -48,10 +48,6 @@ const Detail = ({
       if (error) return 'error';
       return (
         <React.Fragment>
-          {data.movie.title}
-          {data.movie.medium_cover_image}
-          {data.movie.rating}
-          {data.movie.description_intro}
           <Container>
             <Image src={data.movie.medium_cover_image} />
             <span>
