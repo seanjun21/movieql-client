@@ -1,1 +1,1 @@
-# MovieQL
+# MovieQL Client
